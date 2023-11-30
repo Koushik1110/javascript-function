@@ -86,3 +86,31 @@
 // const ageCalculator = (birthyear) => 2023 - birthyear;
 
 // console.log(ageCalculator(2000));
+
+//Function calling another function
+
+// function cutTrees(tree) {
+//   return tree * 4;
+// }
+
+// function makeFurniture(tree) {
+//   return cutTrees(tree)
+// }
+
+// console.log(makeFurniture(5));
+
+// Arrays
+//Arrays is a place where multiple number of function are arranged in an organized manner.Anything can be written in the array.
+const myNumbers = [5, 10, 15, 20, 25, 500];
+
+console.log(myNumbers[5]);
+//If no value is given in the defined position the array will show undefined massage.
+
+//Access element
+
+console.log(myNumbers.indexOf(10));
+
+
+
+//Access index or position
+console.log;
